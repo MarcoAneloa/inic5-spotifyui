@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { AlbumPageRoutingModule } from './album-routing.module';
 
 import { AlbumPage } from './album.page';
+import { SharedDirectivesModule } from '../directives/shared-directives.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AlbumPageRoutingModule
+    AlbumPageRoutingModule,
+    SharedDirectivesModule
   ],
   declarations: [AlbumPage]
 })
-export class AlbumPageModule {}
+export class AlbumPageModule { }
