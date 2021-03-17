@@ -10,7 +10,7 @@ export class TabsPage {
 
   @ViewChild(IonTabs) tabs;
   selected = '';
-  progress = 42;
+  progress = 75;
 
   constructor() { }
 
